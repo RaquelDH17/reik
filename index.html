@@ -9,7 +9,7 @@
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 
 <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
-
+<script src="js/funciones.js" type="text/javascript"></script>
 </head> 
 <body> 
 
@@ -52,21 +52,18 @@
     <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
 		<h1>Historia de REIK</h1>
 	</div>
-    
+         
 	<div data-role="content" align="center">
-	
-    <a href="#jaque" data-rel="popup" data-position-to="window">
- 	<img src="imagenes/banda.png" alt="Skaret View" style="width:100px;"></a>
+      <a href="#jaque" data-rel="popup" data-position-to="window">
+ 	<img src="imagenes/banda.png" alt="Skaret View" width="8" style="width:100px;"></a> 
     
     <div data-role="popup" id="jaque">
     <p>REIK</p>
     <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/banda.png" style="width:400px; height:300px;" alt="Skaret View">
     </div>
     
-    <p>Los comienzos de Reik aparecen luego de una invitación de Abelardo Vázquez Ramos, su actual productor, para realizar unas "demos" que fueron bien recibidas por la audiencia de su ciudad. Reik se abrió camino en diferentes ciudades de la República Mexicana. Las canciones «Yo quisiera» y «Noviembre sin ti» tuvieron mucho éxito. El grupo sólo estaba formado por Jesús y Julio. En 2004 se integró Gilberto Marín Espinoza “Bibi” completando la formación actual.
-</div>
-    
-	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+  <p>Los comienzos de Reik aparecen luego de una invitación de Abelardo Vázquez Ramos, su actual productor, para realizar unas "demos" que fueron bien recibidas por la audiencia de su ciudad. Reik se abrió camino en diferentes ciudades de la República Mexicana. Las canciones «Yo quisiera» y «Noviembre sin ti» tuvieron mucho éxito. El grupo sólo estaba formado por Jesús y Julio. En 2004 se integró Gilberto Marín Espinoza “Bibi” completando la formación actual.</div>
+  <div data-role="footer" data-position="fixed" data-fullscreen="true">
 		<div data-role="navbar" data-iconpos="top">
     <ul>
     <li>
@@ -218,6 +215,66 @@
 	</div>
     </div>
 </div>
+<div data-role="page" id="contacto">
+	
+    <div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
+		<h1>CONTACTANOS</h1>
+	</div>
+    
+	<div data-role="content">	
+    	<center>
+        <p>Desliza la imagen para ver donde nos pueden contactar</p><br>
+      <img src="imagenes/contacto.png" id="con" width="360" height="300"><br> <span id="s1" style="color:#B9313F"></span><p>	</center>
+	</div>
+    
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+    	<div data-role="navbar" data-iconpos="top">
+    <ul>
+    <li>
+    	<a href="#page" data-transition="flip" data-icon="home"> INICIO </a>
+    </li>
+    <li>
+    	<a href="#ayuda" data-transition="slide" data-icon="info"> AYUDA </a>
+    </li>
+    <li>
+    	<a href="#contacto" data-transition="slideup" data-icon="alert"> CONTACTO </a>
+     </li>
+     </ul>
+	</div>
+    </div>
+    
+</div>
 
+<div data-role="page" id="ayuda">
+	
+    <div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
+		<h1>AYUDA</h1>
+	</div>
+    
+	<div data-role="content">	
+   		 <center>
+   		 <p>Desliza la imagen</p><br>
+         <img src="imagenes/ayuda.png" id="ay" width="200" height="250"> <br><span id="s2" style="color:#36C"></span><p> 
+        </center>
+    </div>
+    
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+    	<div data-role="navbar" data-iconpos="top">
+   	 <ul>
+   	 <li>
+    	<a href="#page" data-transition="flip" data-icon="home"> INICIO </a>
+   	 </li>
+   	 <li>
+   	 	<a href="#ayuda" data-transition="slide" data-icon="info"> AYUDA </a></li>
+   	 <li>
+    	<a href="#contacto" data-transition="slideup" data-icon="alert"> CONTACTO </a>
+     </li>
+     </ul>
+	</div>
+    </div>
+    
+</div>
 </body>
 </html>
